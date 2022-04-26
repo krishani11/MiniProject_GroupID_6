@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+
+}
+body{
+	background:transparent;
+}
+.wrapper{
+	width: 780px;
+	margin: 100px auto 0;
+}
+.wrapper .title{
+	font-size: 24px;
+	color: #585c68;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container .option_item{
+	display: block;
+	position: relative;
+	width: 220px;
+	height: 220px;
+	margin: 10px;
+}
+
+.option_item{
+	width: 100%;
+	height: 100%;
+	background: #bbe1fa;
+	border-radius: 5px;
+	text-align: center;
+	padding: 58px 40px;
+	cursor: pointer;
+	color: #585c68;
+	display: block;
+	font-style: bold;
+	border: 5px solid transparent;
+	position: relative;
+
+}
+
+.option_item .checkbox{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+	opacity: 1;
+
+}
+
+.option_item .icon{
+	margin-bottom: 10px;
+}
+.option_item .icon .fab{
+	font-size: 32px;
+}
+.option_item .name{
+	user-select: none;
+	font-size: 15px;
+}
+#in_navbar, #hm_navbar{
+	background-color: #bbe1fa;
+	color:  #3282b8;
+	padding-left: 0px;
+	padding-right:0px;
+}
+
+#in_titlebar, #hm_c_display_bar{
+	background-color: #3282b8;
+	color: white;
+}
+

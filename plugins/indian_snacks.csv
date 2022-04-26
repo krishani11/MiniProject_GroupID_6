@@ -1,0 +1,56 @@
+s_no,name,protein,fat,carbs,fibre,total_cal
+1,stemed corn,19,17,77,12,532
+2,mixed vegetable pop,16,6,56,18,532
+3,egg bhurji with garlic pav,23,18,41,12,425
+4,masala otes,23,17,23,8,338
+5,fruit pop oatmeal bowl,9,4,68,8,336
+6,spicy dryfruts bowl,4,3,36,14,198
+7,banana walnut payasam,2,6,22,8,198
+8,coated peanuts,6,11,4,2,144
+9,Aloo chat,20,12,48,173,390
+10,choole chat,29,23,80,26,704
+11,channa chat,28,13,99,24,638
+12,cheese balls,25,10,99,18,601
+13,chakkilalu,12,11,52,8,350
+14,Attarasalu,36,34,84,22,842
+15,Sunduntaa,25,26,38,14,494
+16,Nooguluntalu,19,30,16,22,342
+17,Kaja,33,39,92,20,842
+18,Gottam kaja,7,5,36,20,230
+19,Kargikaya,9,9,36,2,270
+20,kala jamuun,8,12,13,12,165
+21,samosa,1.4,6,7.9,1.6,262
+22,veg cutlet,5,3,12,11,152
+23,masala vada,16,6.4,6.2,1.5,91
+24,pakora,3.5,20.6,25.1,5.9,200
+25,besan khandhi,10,13.6,38.1,5.6,300
+26,dhokla,3.6,2,12.1,2.6,34
+27,paneer wrap,7.5,1.5,50.7,6.4,215
+28,millets bhel puri,20,11.2,39.2,4.7,180
+29,roasted gram,70,1.5,8,2,103
+30,mushroom on toast,3,1.5,12.6,0.5,115
+31,channa chat,24,51,72,8,147
+32,egg white omelette,4,1,7,1,64
+33,bread upma,7,144,170,6.4,336
+34,ragi cookies,7,18,25,10,109
+35,corn bhel,14,35,102,7.4,143
+36,sprouts salad,9,13,24,6,46
+37,chilli bhajji,3.6,20,12,2.7,142
+38,veg manchuria,2.4,15,19.9,1.1,183
+39,ragi sangatti,6,2,44,8,236
+40,carrot halwa,7.5,1.5,50.7,6.4,359
+41,betroot halwa,8.1,28,65,1.2,220
+42,sooji halwa,3.5,76,87,4.6,243
+43,doodh peda,5.9,65,70,5.6,343
+44,rasagulla,4,52,43,1.1,367
+45,rasamalai,3.6,71,59,1.8,289
+46,gulab jammun,2.1,48,45,1,320
+47,vermicelli payasam,3,34,24,2.3,224
+48,junnu,7,24,43,2,176
+49,besan laddu,6.3,46,53,3.1,213
+50,arisalu,3.9,63,54,4,199
+51,chikki,8.5,29,34,8,134
+52,gavvalu,4.3,23,45,4.8,231
+53,pootharekulu,1.3,19,34,4.1,154
+54,jalebi,1,59,19,3.4,240
+55,kaju katli,8,78,56,1.9,250

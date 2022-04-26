@@ -1,0 +1,47 @@
+s_no,name,protein,fat,carbs,fibre,total_cal,vn
+1,quinoa_pumpkin_kichidi_meal,20,12,48,17,390,veg
+2,high_protein_chole_patty_meal,29,31,80,26,704,veg
+3,hing_wale_channe_and_veg_pulao,28,13,99,24,638,veg
+4,dal_makhni_and_veg_pulao,25,10,99,18,601,veg
+5,curd_rice,12,11,52,8,350,veg
+6,paratha_meal,36,34,84,22,842,veg
+7,pulav_and_egg_masala,25,26,38,14,494,non veg
+8,pulav_baked_vegtables_and_Rajma,19,30,16,22,443,veg
+9,Panner_khatta_Pyaaz_Parata,33,39,92,20,842,veg
+10,Daal_Indian_Meal,9,12,24,108,264,veg
+11,Puliyogre,9,9,36,37,270,veg
+12,tomota_rice,19,9,26,7,340,veg
+13,Lemon_Rice,7.1,16,34,7,250,veg
+14,tamarid_rice,21,16,44,6.3,250,veg
+15,malabar_fish_biriyani,103,16,34,28,550,non veg
+16,mango_rice,19,8,39,14,250,veg
+17,sambar_rice,15,9,26,7,180,veg
+18,dal_rice,29,19,36,46,240,veg
+19,egg_fried_rice,67,9,16,7.9,189,non veg
+20,chicken_fried_rice,123,9,56,67,340,non veg
+21,peas_biriyani,56,9,86,27,340,veg
+23,dryfruits_rice,24,9,26,70,340,veg
+24,rasam_rice,19,9,36,17,340,veg
+25,jackfruit_seeds_biriyani,67.8,29,26,7,224,veg
+26,mutton_biriyani,102,58.1,46,17,412,non veg
+27,prawns_biriyani,190,19,76,14,260,non veg
+28,chicken_kebab,200,16,26,7,340,non veg
+29,keema_balls_biriyani,140,100,69,9,440,non veg
+30,haleem,154,143,26,7,569,non veg
+31,tomato_soup,1.5,1,1.1,0,28,veg
+32,corn_soup,2.6,1.6,2,,35,veg
+33,chicken_soup,4,1.3,2.2,0,40,non veg
+34,creamy_chicken_soup,1.2,4,3.3,0,61,non veg
+35,pepper_soup,1,1.3,2,0,24,veg
+36,vegetable_soup,3,1.9,2.9,0,25,veg
+37,cheesy_potato_soup,1.2,9,4,0,74,veg
+38,chicken_stew_soup,2.5,3.6,2.6,0,36,non veg
+39,curd_rice,2,4,1.4,1,65.6,veg
+40,vegetables_kichidi,20,12,48,173,390,veg
+41,Masala_Rice,29,23,80,26,704,veg
+42,Atukul_rice_with_peanuts,28,13,99,24,638,veg
+43,podi_rice,25,10,99,18,601,veg
+44,Egg_and_mashroom rice,12,11,52,8,350,veg
+45,Veg_gobi_rice,36,34,84,22,842,veg
+46,Egg_biryani,25,26,38,14,494,veg
+47,brown_rice_veggies,19,30,16,22,342,veg

@@ -1,0 +1,63 @@
+body{
+	background-color: #3282b8;
+	color: #1b262c;
+}
+
+#main{
+	margin-top: 6%;
+
+}
+
+#form_wrapper{
+	background-color: white;
+	color:#1b262c;
+}
+
+#form_header{
+	background-color: #bbe1fa;
+	color:#1b262c;
+	padding-left: 10%;
+}
+
+#form_content{
+	padding-left: 10%;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+	background-color: rgba(255,255,255,0);
+	color: #1b262c;
+	width:150%;
+	border: none;
+	border-bottom: 1px solid #0f4c75;
+}
+
+input[type="submit"]{
+	background-color: #bbe1fa;
+	color: #1b262c;
+	border: 1px solid #0f4c75;
+}
+
+
+select{
+	background-color: white;
+	color: #1b262c;
+	border:none;
+	border-bottom: 1px solid #0f4c75;
+	width: 150%;
+}
+
+.tp_header{
+	padding-left: 2%;
+}
+
+.tp_content{
+	background-color: white;
+	color:#1b262c;
+	padding-left: 2%;
+}
+
+.row_tp_content ul li
+{
+	font-size:20px;
+}
+
