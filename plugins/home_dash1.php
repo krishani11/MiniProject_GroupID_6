@@ -10,7 +10,7 @@ session_start();
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="index_style.css">
-	<title>Svasthya</title>
+	<title>Eat Smart</title>
 
 </head>
 <body>
@@ -21,6 +21,30 @@ session_start();
 			Hello,
 			<?php
 			    echo $_SESSION['r_username'];
+				
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "https://v1.nocodeapi.com/shruti2820/fit/NkWJwRvEVUjScNlz/aggregatesDatasets?dataTypeName=steps_count&timePeriod=today",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_ENCODING => '',
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 0,
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => 'GET',
+    CURLOPT_POSTFIELDS =>'{}',
+    CURLOPT_HTTPHEADER => array(
+    'Content-Type: application/json'
+    ),
+));
+
+
+$response = curl_exec($curl);
+$newresponse =substr($response,25,4);
+$name=$_SESSION['r_username'];
+
 			?>	
 
 			</p></h5>
@@ -33,13 +57,17 @@ session_start();
 			    <a class="nav-link active" href="db_display.php">Profile</a>
 			  </li>			  
 			</ul>
-			</div>
+			</div> 
 		</div>
 			<div class="row" >
 			<div class="col-12 jumbotron jumbotron-fluid" id="hm_c_display_bar">
-			  <div class="container">
+			  <div class="container"> 
 			    <h5 class="display-4">Your ideal calorie intake per day is <p> <?php echo $_SESSION['cal_intake']?></p></h5>
-			    <p id="hm_c_intake _display"></p>
+				<?php if($name=='ShrutiPrasad'){echo "<h5 class='display-4'>Your Footstep From SmartWatch is:  </h5>";if($name=='ShrutiPrasad')echo "<h5 class='display-4'> $newresponse </h5>";} 
+			 ?>
+	
+    	
+				<p id="hm_c_intake _display"></p>
 			  </div>
 			</div>
 		</div>
