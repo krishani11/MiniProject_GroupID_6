@@ -63,7 +63,7 @@
 					Diet type  <br>
 					<select name="p_dt" required>
 						<option></option>
-						<option> Vegan</option>
+						<option> Non-Veg</option>
 						<option> Vegetarian</option>
 					</select><br><br>
 
